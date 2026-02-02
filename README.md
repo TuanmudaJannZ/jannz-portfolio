@@ -1,4 +1,4 @@
-# 🚀 Portofolio JannZ - Cyber Security Specialist
+# 🚀 JannZ Portfolio - Cyber Security Specialist
 
 ![Portfolio Preview](https://img.shields.io/badge/Portfolio-JannZ-blue)
 ![React](https://img.shields.io/badge/React-18.2-61DAFB)
@@ -8,677 +8,407 @@
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 
 <div align="center">
-  
-![Portfolio Screenshot](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=600&fit=crop&auto=format)
 
-**Portofolio profesional dengan tema cosmic/nebula untuk JannZ - Cyber Security Enthusiast & Bug Hunter**
+<!-- Ganti dengan screenshot aktual website Anda -->
+<img src="https://via.placeholder.com/800x450/0a0a1a/00f3ff?text=JannZ+Portfolio+Preview" alt="Portfolio Preview" width="800"/>
 
-[🌐 Live Demo](https://tuanmudajannz.github.io/jannz-portfolio/) • [📖 Dokumentasi](#dokumentasi) • [🚀 Deploy](#deployment) • [💻 Kode](#struktur-proyek) • [📞 Kontak](#kontak)
+**Modern Cosmic Portfolio for Cyber Security Professional**
 
-</div>
-
-## ✨ Fitur Utama
-
-| Fitur | Deskripsi |
-|-------|-----------|
-| 🎨 **Design Modern** | Tema cosmic/nebula dengan efek partikel interaktif |
-| 📱 **Full Responsive** | Optimal di mobile, tablet, dan desktop |
-| ⚡ **High Performance** | Loading cepat dengan code splitting |
-| 🌌 **Animasi Smooth** | Transisi dengan Framer Motion & AOS |
-| 🛡️ **Security Focus** | Konten untuk cybersecurity professional |
-| 📧 **Contact Form** | Form kontak dengan EmailJS integration |
-| 🎯 **SEO Optimized** | Meta tags dan struktur semantic HTML |
-| 🌙 **Dark Theme** | Tema gelap dengan efek neon |
-
-## 🛠️ Teknologi Stack
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+[🌐 Live Website](https://tuanmudajannz.github.io/jannz-portfolio/) • [📦 GitHub](https://github.com/TuanmudaJannZ/jannz-portfolio) • [🐛 Issues](https://github.com/TuanmudaJannZ/jannz-portfolio/issues) • [💡 Features](#-features)
 
 </div>
 
-- **Frontend:** React 18 + Vite
-- **Styling:** Tailwind CSS + Custom Animations
-- **Animasi:** Framer Motion + AOS (Animate On Scroll)
-- **Background:** TSParticles (Cosmic Particles)
-- **Icons:** React Icons
-- **Form:** EmailJS
-- **Deployment:** GitHub Pages / Vercel
+## 📖 Table of Contents
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🎨 Sections Overview](#-sections-overview)
+- [⚙️ Configuration](#️-configuration)
+- [📦 Deployment](#-deployment)
+- [🔧 Customization](#-customization)
+- [📱 Responsive Design](#-responsive-design)
+- [🔒 Security](#-security)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📞 Contact](#-contact)
+
+## ✨ Features
+
+### 🎨 Visual Excellence
+- **Cosmic Nebula Theme** - Dark theme dengan efek partikel bintang
+- **Interactive Particles** - Background dinamis dengan TSParticles
+- **Smooth Animations** - Framer Motion & AOS scroll animations
+- **Neon Glow Effects** - Custom glow untuk elemen penting
+
+### ⚡ Performance
+- **Fast Loading** - Optimized dengan Vite + Code splitting
+- **SEO Optimized** - Meta tags & semantic HTML
+- **Mobile First** - Responsive di semua device
+- **Accessibility** - ARIA labels & keyboard navigation
+
+### 🔧 Functionality
+- **Contact Form** - Integrated dengan EmailJS
+- **Dynamic Skills** - Animated progress bars
+- **Projects Showcase** - Filterable project cards
+- **Certificates Carousel** - Mobile-friendly display
+
+## 🛠️ Tech Stack
+
+**Frontend Framework**
+- ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+
+**Styling & UI**
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
+
+**Libraries**
+- ![TSParticles](https://img.shields.io/badge/TSParticles-000000?style=flat&logo=particle&logoColor=white)
+- ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=flat&logo=react&logoColor=white)
+- ![AOS](https://img.shields.io/badge/AOS-000000?style=flat&logo=aos&logoColor=white)
+
+**Deployment**
+- ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=github&logoColor=white)
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 16+ & npm/yarn
+- Node.js 16.0 or higher
+- npm or yarn
 
 ### Installation
 ```bash
 # Clone repository
 git clone https://github.com/TuanmudaJannZ/jannz-portfolio.git
+
+# Navigate to project
 cd jannz-portfolio
 
 # Install dependencies
 npm install
 
-# Run development server
+# Start development server
 npm run dev
 ```
 
-Buka [http://localhost:5173](http://localhost:5173) di browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 📁 Struktur Proyek
+### Build for Production
+```bash
+# Build project
+npm run build
 
+# Preview build
+npm run preview
+```
+
+## 📁 Project Structure
 ```
 jannz-portfolio/
-├── public/              # Static files
-├── src/
-│   ├── components/      # React components
-│   │   ├── Hero.jsx     # Hero section
-│   │   ├── About.jsx    # About section
-│   │   ├── Skills.jsx   # Skills section
-│   │   ├── Projects.jsx # Projects showcase
-│   │   ├── Certificates.jsx # Certifications
-│   │   ├── Contact.jsx  # Contact form
-│   │   ├── Navbar.jsx   # Navigation
-│   │   ├── Footer.jsx   # Footer
+├── public/                    # Static assets
+│   ├── index.html            # Main HTML
+│   └── vite.svg              # Vite logo
+├── src/                      # Source code
+│   ├── components/           # React components
+│   │   ├── Hero.jsx          # Hero section
+│   │   ├── About.jsx         # About section
+│   │   ├── Skills.jsx        # Skills section
+│   │   ├── Projects.jsx      # Projects showcase
+│   │   ├── Certificates.jsx  # Certifications
+│   │   ├── Contact.jsx       # Contact form
+│   │   ├── Navbar.jsx        # Navigation
+│   │   ├── Footer.jsx        # Footer
 │   │   └── ParticlesBackground.jsx # Particle effects
-│   ├── App.jsx          # Main App component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── .gitignore
-├── index.html
-├── package.json
-├── tailwind.config.js   # Tailwind configuration
-├── vite.config.js       # Vite configuration
-└── README.md
+│   ├── App.jsx               # Main App component
+│   ├── main.jsx              # Entry point
+│   └── index.css             # Global styles
+├── .gitignore                # Git ignore file
+├── index.html                # Entry HTML
+├── package.json              # Dependencies
+├── tailwind.config.js        # Tailwind config
+├── vite.config.js            # Vite config
+└── README.md                 # This file
 ```
 
-## 🎨 Sections
+## 🎨 Sections Overview
 
-### 1. **Hero Section**
-- Animasi typewriter untuk role dinamis
-- Background particle cosmic
-- CTA buttons: View Work & Contact
+### 1. Hero Section
+- Animated typewriter effect for roles
+- Cosmic particle background
+- Call-to-action buttons
+- Scroll indicator
 
-### 2. **About Section**
-- Profil profesional JannZ
-- Feature cards dengan icon
-- Progress bars animasi
+### 2. About Section
+- Professional introduction
+- Feature cards with icons
+- Animated progress bars
+- Personal achievements
 
-### 3. **Skills Section**
-- Kategori skill (Web Dev, Security Tools, Lainnya)
-- Progress bars dengan persentase
-- Icons untuk setiap skill
+### 3. Skills Section
+- Categorized skills (Web Dev, Security, Tools)
+- Interactive progress bars
+- Technology icons
+- Continuous learning section
 
-### 4. **Projects Section**
-- Grid projects dengan card
-- Tags teknologi
-- Link GitHub & Live Demo
+### 4. Projects Section
+- Project cards grid
+- Technology tags
+- GitHub & Live demo links
+- Hover effects
 
-### 5. **Certificates Section**
-- Grid sertifikasi (desktop)
-- Carousel sertifikasi (mobile)
-- Pencapaian tambahan
+### 5. Certificates Section
+- Certifications grid (desktop)
+- Interactive carousel (mobile)
+- Achievement metrics
+- Certification details
 
-### 6. **Contact Section**
-- Form kontak dengan validasi
-- Metode kontak alternatif
-- Status ketersediaan
+### 6. Contact Section
+- Working contact form
+- Multiple contact methods
+- Availability status
+- Form validation
 
-## 🔧 Konfigurasi
+## ⚙️ Configuration
 
-### Tailwind Config
+### Tailwind Configuration
 ```javascript
 // tailwind.config.js
-theme: {
-  extend: {
-    colors: {
-      'neon-blue': '#00f3ff',
-      'neon-purple': '#b967ff',
-      'cosmic-dark': '#0a0a1a',
-      'cosmic-darker': '#050510',
-    },
-    animation: {
-      'gradient': 'gradient 8s linear infinite',
-      'float': 'float 6s ease-in-out infinite',
+module.exports = {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        'neon-blue': '#00f3ff',
+        'neon-purple': '#b967ff',
+        'cosmic-dark': '#0a0a1a',
+        'cosmic-darker': '#050510',
+        'cosmic-light': '#1a1a2e',
+      },
+      animation: {
+        'gradient': 'gradient 8s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+      }
     }
   }
 }
 ```
 
-### Vite Config
+### Vite Configuration
 ```javascript
 // vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
 export default defineConfig({
   plugins: [react()],
-  base: '/jannz-portfolio/', // Untuk GitHub Pages
+  base: '/jannz-portfolio/', // For GitHub Pages
 })
 ```
 
 ## 📦 Deployment
 
-### GitHub Pages
+### GitHub Pages (Current)
 ```bash
-# Build project
-npm run build
-
-# Deploy to GitHub Pages
+# Build and deploy
 npm run deploy
 
-# Atau manual
+# Manual deployment
+npm run build
 npx gh-pages -d dist
 ```
+
+**Live at:** https://tuanmudajannz.github.io/jannz-portfolio/
 
 ### Vercel (Recommended)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TuanmudaJannZ/jannz-portfolio)
 
-```bash
-# Push to GitHub
-git push origin main
+1. Push code to GitHub
+2. Import repository on Vercel
+3. Automatic deployment on push
 
-# Import to Vercel - automatic deployment
-```
+### Custom Domain Setup
+For `portofolio.jannz.my.id`:
 
-### Custom Domain (portofolio.jannz.my.id)
-1. Update `vite.config.js`:
-   ```javascript
-   base: '/'  // Remove subpath for custom domain
-   ```
-2. Update `package.json`:
-   ```json
-   "homepage": "https://portofolio.jannz.my.id"
-   ```
-3. Set custom domain di GitHub Pages settings
-4. Add CNAME record di DNS provider
-
-## 🎯 SEO & Performance
-
-✅ **SEO Optimized:**
-- Meta tags untuk deskripsi & keywords
-- Semantic HTML structure
-- Open Graph tags untuk social media
-
-✅ **Performance Optimized:**
-- Code splitting dengan React.lazy
-- Optimized images
-- Minified CSS & JS
-- Lazy loading komponen
-
-✅ **Accessibility:**
-- ARIA labels
-- Keyboard navigation
-- Color contrast compliance
-
-## 📱 Responsive Breakpoints
-
-| Device | Breakpoint | Features |
-|--------|------------|----------|
-| Mobile | < 640px | Hamburger menu, carousel certs |
-| Tablet | 640px - 1024px | Grid layouts, responsive text |
-| Desktop | > 1024px | Full features, particle effects |
-
-## 🔒 Security Features
-
-- Sanitized form inputs
-- HTTPS enforcement
-- Secure API calls
-- XSS protection
-- CSP headers (production)
-
-## 🔧 Customization
-
-### Ubah Informasi Pribadi
-1. **Hero Section**: `src/components/Hero.jsx`
-2. **About Section**: `src/components/About.jsx`
-3. **Contact Info**: `src/components/Contact.jsx`
-4. **Social Links**: `src/components/Footer.jsx`
-
-### Ubah Skills
-Edit `src/components/Skills.jsx`:
-```javascript
-const skills = [
-  { name: "HTML5", icon: <FaHtml5 />, level: 95 },
-  { name: "CSS3", icon: <FaCss3Alt />, level: 90 },
-  // Tambah skill baru...
-]
-```
-
-### Ubah Projects
-Edit `src/components/Projects.jsx`:
-```javascript
-const projects = [
-  {
-    title: "Project Name",
-    description: "Project description",
-    tags: ["React", "Node.js"],
-    github: "https://github.com/...",
-    live: "https://demo.example.com"
-  }
-]
-```
-
-## 🐛 Troubleshooting
-
-### Common Issues & Solutions
-
-| Issue | Solution |
-|-------|----------|
-| Port 5173 already in use | `npm run dev -- --port 3000` |
-| Particles not showing | Check `ParticlesBackground.jsx` config |
-| AOS animations not working | Verify AOS init in `main.jsx` |
-| Tailwind classes not working | Run `npx tailwindcss -i ./src/index.css -o ./src/output.css --watch` |
-| Build errors | Delete `node_modules` & `package-lock.json`, then `npm install` |
-
-### Error: Module not found
-```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
-```
-
-### Error: Failed to deploy
-```bash
-# Check gh-pages branch
-git branch -a
-
-# Force deploy
-npx gh-pages -d dist -t true -f
-```
-
-## 📈 Analytics (Optional)
-
-Tambahkan Google Analytics:
-```javascript
-// index.html
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
-```
-
-## 🤝 Contributing
-
-Kontribusi dipersilakan! Ikuti langkah:
-
-1. Fork repository
-2. Buat branch fitur (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## 📄 License
-
-Distributed under MIT License. See `LICENSE` for more information.
-
-## 🙏 Acknowledgments
-
-- Design inspiration from [EkiZR Portfolio_V5](https://eki.my.id)
-- Icons by [React Icons](https://react-icons.github.io/react-icons/)
-- Particles by [TSParticles](https://particles.js.org/)
-- Animations by [Framer Motion](https://www.framer.com/motion/)
-
-## 📞 Kontak
-
-**JannZ** - Cyber Security Enthusiast
-
-- 🌐 Website: [portofolio.jannz.my.id](https://tuanmudajannz.github.io/jannz-portfolio/)
-- 📧 Email: contact@jannz.my.id
-- 💬 Telegram: [@TuanJannZ](https://t.me/TuanJannZ)
-- 🐙 GitHub: [@TuanmudaJannZ](https://github.com/TuanmudaJannZ)
-- 🛡️ LegionX: Leader
-
----
-
-<div align="center">
-
-**⭐ Jika project ini membantu, berikan star di GitHub!**
-
-[![GitHub stars](https://img.shields.io/github/stars/TuanmudaJannZ/jannz-portfolio?style=social)](https://github.com/TuanmudaJannZ/jannz-portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/TuanmudaJannZ/jannz-portfolio?style=social)](https://github.com/TuanmudaJannZ/jannz-portfolio/network/members)
-
-**Dibuat dengan ❤️ untuk komunitas cybersecurity**
-
-</div>
-</div>
-
-## ✨ Fitur Utama
-
-| Fitur | Deskripsi |
-|-------|-----------|
-| 🎨 **Design Modern** | Tema cosmic/nebula dengan efek partikel interaktif |
-| 📱 **Full Responsive** | Optimal di mobile, tablet, dan desktop |
-| ⚡ **High Performance** | Loading cepat dengan code splitting |
-| 🌌 **Animasi Smooth** | Transisi dengan Framer Motion & AOS |
-| 🛡️ **Security Focus** | Konten untuk cybersecurity professional |
-| 📧 **Contact Form** | Form kontak dengan EmailJS integration |
-| 🎯 **SEO Optimized** | Meta tags dan struktur semantic HTML |
-| 🌙 **Dark Theme** | Tema gelap dengan efek neon |
-
-## 🛠️ Teknologi Stack
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-- **Frontend:** React 18 + Vite
-- **Styling:** Tailwind CSS + Custom Animations
-- **Animasi:** Framer Motion + AOS (Animate On Scroll)
-- **Background:** TSParticles (Cosmic Particles)
-- **Icons:** React Icons
-- **Form:** EmailJS
-- **Deployment:** GitHub Pages / Vercel
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 16+ & npm/yarn
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/TuanmudaJannZ/jannz-portfolio.git
-cd jannz-portfolio
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-
-Buka [http://localhost:5173](http://localhost:5173) di browser.
-
-## 📁 Struktur Proyek
-
-```
-jannz-portfolio/
-├── public/              # Static files
-├── src/
-│   ├── components/      # React components
-│   │   ├── Hero.jsx     # Hero section
-│   │   ├── About.jsx    # About section
-│   │   ├── Skills.jsx   # Skills section
-│   │   ├── Projects.jsx # Projects showcase
-│   │   ├── Certificates.jsx # Certifications
-│   │   ├── Contact.jsx  # Contact form
-│   │   ├── Navbar.jsx   # Navigation
-│   │   ├── Footer.jsx   # Footer
-│   │   └── ParticlesBackground.jsx # Particle effects
-│   ├── App.jsx          # Main App component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── .gitignore
-├── index.html
-├── package.json
-├── tailwind.config.js   # Tailwind configuration
-├── vite.config.js       # Vite configuration
-└── README.md
-```
-
-## 🎨 Sections
-
-### 1. **Hero Section**
-- Animasi typewriter untuk role dinamis
-- Background particle cosmic
-- CTA buttons: View Work & Contact
-
-### 2. **About Section**
-- Profil profesional JannZ
-- Feature cards dengan icon
-- Progress bars animasi
-
-### 3. **Skills Section**
-- Kategori skill (Web Dev, Security Tools, Lainnya)
-- Progress bars dengan persentase
-- Icons untuk setiap skill
-
-### 4. **Projects Section**
-- Grid projects dengan card
-- Tags teknologi
-- Link GitHub & Live Demo
-
-### 5. **Certificates Section**
-- Grid sertifikasi (desktop)
-- Carousel sertifikasi (mobile)
-- Pencapaian tambahan
-
-### 6. **Contact Section**
-- Form kontak dengan validasi
-- Metode kontak alternatif
-- Status ketersediaan
-
-## 🔧 Konfigurasi
-
-### Tailwind Config
-```javascript
-// tailwind.config.js
-theme: {
-  extend: {
-    colors: {
-      'neon-blue': '#00f3ff',
-      'neon-purple': '#b967ff',
-      'cosmic-dark': '#0a0a1a',
-      'cosmic-darker': '#050510',
-    },
-    animation: {
-      'gradient': 'gradient 8s linear infinite',
-      'float': 'float 6s ease-in-out infinite',
-    }
-  }
-}
-```
-
-### Vite Config
+1. Update configuration:
 ```javascript
 // vite.config.js
-export default defineConfig({
-  plugins: [react()],
-  base: '/jannz-portfolio/', // Untuk GitHub Pages
-})
+base: '/'
+```
+```json
+// package.json
+"homepage": "https://portofolio.jannz.my.id"
 ```
 
-## 📦 Deployment
+2. GitHub Settings → Pages:
+   - Custom domain: `portofolio.jannz.my.id`
+   - Enforce HTTPS
 
-### GitHub Pages
-```bash
-# Build project
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
-
-# Atau manual
-npx gh-pages -d dist
+3. DNS Configuration:
 ```
-
-### Vercel (Recommended)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TuanmudaJannZ/jannz-portfolio)
-
-```bash
-# Push to GitHub
-git push origin main
-
-# Import to Vercel - automatic deployment
+Type: CNAME
+Name: portofolio
+Value: tuanmudajannz.github.io
+TTL: 300
 ```
-
-### Custom Domain (portofolio.jannz.my.id)
-1. Update `vite.config.js`:
-   ```javascript
-   base: '/'  // Remove subpath for custom domain
-   ```
-2. Update `package.json`:
-   ```json
-   "homepage": "https://portofolio.jannz.my.id"
-   ```
-3. Set custom domain di GitHub Pages settings
-4. Add CNAME record di DNS provider
-
-## 🎯 SEO & Performance
-
-✅ **SEO Optimized:**
-- Meta tags untuk deskripsi & keywords
-- Semantic HTML structure
-- Open Graph tags untuk social media
-
-✅ **Performance Optimized:**
-- Code splitting dengan React.lazy
-- Optimized images
-- Minified CSS & JS
-- Lazy loading komponen
-
-✅ **Accessibility:**
-- ARIA labels
-- Keyboard navigation
-- Color contrast compliance
-
-## 📱 Responsive Breakpoints
-
-| Device | Breakpoint | Features |
-|--------|------------|----------|
-| Mobile | < 640px | Hamburger menu, carousel certs |
-| Tablet | 640px - 1024px | Grid layouts, responsive text |
-| Desktop | > 1024px | Full features, particle effects |
-
-## 🔒 Security Features
-
-- Sanitized form inputs
-- HTTPS enforcement
-- Secure API calls
-- XSS protection
-- CSP headers (production)
 
 ## 🔧 Customization
 
-### Ubah Informasi Pribadi
-1. **Hero Section**: `src/components/Hero.jsx`
-2. **About Section**: `src/components/About.jsx`
-3. **Contact Info**: `src/components/Contact.jsx`
-4. **Social Links**: `src/components/Footer.jsx`
+### Personal Information
+Edit these files to update your info:
 
-### Ubah Skills
-Edit `src/components/Skills.jsx`:
+| File | Information |
+|------|-------------|
+| `src/components/Hero.jsx` | Name, roles, description |
+| `src/components/About.jsx` | About me text, features |
+| `src/components/Contact.jsx` | Contact details |
+| `src/components/Footer.jsx` | Social links |
+
+### Skills Update
 ```javascript
+// src/components/Skills.jsx
 const skills = [
-  { name: "HTML5", icon: <FaHtml5 />, level: 95 },
-  { name: "CSS3", icon: <FaCss3Alt />, level: 90 },
-  // Tambah skill baru...
+  {
+    category: "Security Tools",
+    skills: [
+      { name: "Kali Linux", icon: <SiKaliLinux />, level: 90 },
+      { name: "Burp Suite", icon: <SiBurpsuite />, level: 85 },
+      // Add more skills...
+    ]
+  }
 ]
 ```
 
-### Ubah Projects
-Edit `src/components/Projects.jsx`:
+### Projects Update
 ```javascript
+// src/components/Projects.jsx
 const projects = [
   {
-    title: "Project Name",
-    description: "Project description",
-    tags: ["React", "Node.js"],
-    github: "https://github.com/...",
+    title: "Your Project",
+    description: "Project description here",
+    tags: ["React", "Node.js", "Security"],
+    github: "https://github.com/yourusername/project",
     live: "https://demo.example.com"
   }
 ]
 ```
 
+## 📱 Responsive Design
+
+| Device | Breakpoints | Features |
+|--------|-------------|----------|
+| 📱 Mobile | < 640px | Hamburger menu, carousel, mobile-optimized layout |
+| 📟 Tablet | 640px - 1024px | Adaptive grid, responsive typography |
+| 🖥️ Desktop | > 1024px | Full features, particle effects, hover states |
+
+## 🔒 Security Features
+
+- **Form Validation** - Client-side validation
+- **Input Sanitization** - Prevent XSS attacks
+- **HTTPS Enforcement** - Secure connections
+- **CSP Headers** - Content Security Policy
+- **Secure Dependencies** - Regular updates
+
 ## 🐛 Troubleshooting
 
-### Common Issues & Solutions
+### Common Issues
 
-| Issue | Solution |
-|-------|----------|
-| Port 5173 already in use | `npm run dev -- --port 3000` |
-| Particles not showing | Check `ParticlesBackground.jsx` config |
-| AOS animations not working | Verify AOS init in `main.jsx` |
-| Tailwind classes not working | Run `npx tailwindcss -i ./src/index.css -o ./src/output.css --watch` |
-| Build errors | Delete `node_modules` & `package-lock.json`, then `npm install` |
+| Problem | Solution |
+|---------|----------|
+| Port 5173 in use | `npm run dev -- --port 3000` |
+| Particles not showing | Check browser console for errors |
+| Animations not working | Verify AOS initialization |
+| Tailwind classes missing | Restart dev server |
+| Build errors | Clear cache: `rm -rf node_modules package-lock.json && npm install` |
 
-### Error: Module not found
+### EmailJS Configuration
+1. Create account at [EmailJS](https://www.emailjs.com/)
+2. Get your credentials:
+   - Service ID
+   - Template ID  
+   - Public Key
+3. Update in `src/components/Contact.jsx`
+
+### GitHub Pages Not Updating
 ```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
-```
-
-### Error: Failed to deploy
-```bash
-# Check gh-pages branch
-git branch -a
-
-# Force deploy
+# Force update
+rm -rf dist
+npm run build
 npx gh-pages -d dist -t true -f
-```
 
-## 📈 Analytics (Optional)
-
-Tambahkan Google Analytics:
-```javascript
-// index.html
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
+# Check deployment
+git branch -a  # Should see gh-pages branch
 ```
 
 ## 🤝 Contributing
 
-Kontribusi dipersilakan! Ikuti langkah:
+Contributions are welcome! Here's how:
 
-1. Fork repository
-2. Buat branch fitur (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** changes: `git commit -m 'Add amazing feature'`
+4. **Push** to branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
+
+### Development Guidelines
+- Use meaningful commit messages
+- Follow existing code style
+- Test changes thoroughly
+- Update documentation if needed
 
 ## 📄 License
 
-Distributed under MIT License. See `LICENSE` for more information.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+
+Copyright (c) 2024 JannZ
+
+Permission is hereby granted, free of charge...
+```
 
 ## 🙏 Acknowledgments
 
 - Design inspiration from [EkiZR Portfolio_V5](https://eki.my.id)
-- Icons by [React Icons](https://react-icons.github.io/react-icons/)
-- Particles by [TSParticles](https://particles.js.org/)
+- Icons provided by [React Icons](https://react-icons.github.io/)
+- Particle effects by [TSParticles](https://particles.js.org/)
 - Animations by [Framer Motion](https://www.framer.com/motion/)
 
-## 📞 Kontak
+## 📞 Contact
 
 **JannZ** - Cyber Security Enthusiast
 
-- 🌐 Website: [portofolio.jannz.my.id](https://tuanmudajannz.github.io/jannz-portfolio/)
-- 📧 Email: contact@jannz.my.id
+- 🌐 Portfolio: [portofolio.jannz.my.id](https://tuanmudajannz.github.io/jannz-portfolio/)
+- 📧 Email: [contact@jannz.my.id](mailto:contact@jannz.my.id)
 - 💬 Telegram: [@TuanJannZ](https://t.me/TuanJannZ)
 - 🐙 GitHub: [@TuanmudaJannZ](https://github.com/TuanmudaJannZ)
-- 🛡️ LegionX: Leader
+- 🛡️ LegionX: Team Leader
 
 ---
 
 <div align="center">
 
-**⭐ Jika project ini membantu, berikan star di GitHub!**
+### ⭐ Support the Project
 
-[![GitHub stars](https://img.shields.io/github/stars/TuanmudaJannZ/jannz-portfolio?style=social)](https://github.com/TuanmudaJannZ/jannz-portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/TuanmudaJannZ/jannz-portfolio?style=social)](https://github.com/TuanmudaJannZ/jannz-portfolio/network/members)
+If this portfolio helps you, give it a star!
 
-**Dibuat dengan ❤️ untuk komunitas cybersecurity**
+[![GitHub stars](https://img.shields.io/github/stars/TuanmudaJannZ/jannz-portfolio?style=for-the-badge)](https://github.com/TuanmudaJannZ/jannz-portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/TuanmudaJannZ/jannz-portfolio?style=for-the-badge)](https://github.com/TuanmudaJannZ/jannz-portfolio/network/members)
 
-</div>- Framer Motion
-- TSParticles
-- AOS (Animate On Scroll)
-- React Icons
+**Built with ❤️ for the cybersecurity community**
+
+</div>
+
+## 📊 Project Stats
+
+![GitHub Repo Stars](https://img.shields.io/github/stars/TuanmudaJannZ/jannz-portfolio?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/TuanmudaJannZ/jannz-portfolio?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/TuanmudaJannZ/jannz-portfolio)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/TuanmudaJannZ/jannz-portfolio)
+
+---
+
+**📌 Note:** This README is automatically generated and maintained. For any issues or suggestions, please open an issue in the repository.
