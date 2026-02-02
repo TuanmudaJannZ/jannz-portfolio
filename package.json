@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://TuanmudaJannZ.github.io",
+  "homepage": "https://TuanmudaJannZ.github.io/jannz-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
