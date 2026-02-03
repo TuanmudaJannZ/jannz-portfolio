@@ -44,14 +44,4 @@ export default {
     },
   },
   plugins: [],
-}          to: { width: '100%' },
-        },
-      },
-      backgroundImage: {
-        'cosmic-gradient': 'radial-gradient(circle at 50% 50%, rgba(11, 10, 26, 0.8) 0%, rgba(5, 5, 16, 0.9) 100%)',
-        'nebula': 'radial-gradient(circle at 20% 30%, rgba(185, 103, 255, 0.15) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(0, 243, 255, 0.1) 0%, transparent 50%)',
-      },
-    },
-  },
-  plugins: [],
 }
